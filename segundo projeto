@@ -1,0 +1,8 @@
+# @title programa do cantinho
+
+nome= input("Qual o seu nome?:")
+data_de_nascimento= input("digite seu ano de nascimento:")
+idade=2025-(int(data_de_nascimento))
+
+print("seu nome é:",nome)
+print("sua idade é:",idade ,"anos")
