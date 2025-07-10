@@ -1,0 +1,8 @@
+salario = float(input("Digite o salario:"))
+tempo_servico = int(input("Digite o tempo de serviço:"))
+if tempo_servico <= 5:
+  bonus = salario * 0.05
+  print(f"O bonus é de: {bonus}")
+if tempo_servico >= 5:
+  bonus = salario * 0.10
+  print(f"O bonus é de: {bonus}")
