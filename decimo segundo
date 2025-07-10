@@ -1,0 +1,9 @@
+preco = float(input("Digite o preço do produto: "))
+
+forma_de_pagamento = input("Digite a forma de pagamento (à vista ou parcelado): ")
+if forma_de_pagamento== "a vista":
+  desconto = preco *0.10
+  print(f"o desconto é de:{desconto} ")
+  print(f"o preco com desconto é de {preco-desconto}")
+  if forma_de_pagamento == "parcelado":
+    print(f"preco sem o desconto{preco}")
