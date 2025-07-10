@@ -1,0 +1,6 @@
+ @title RAIO
+
+raio= float(input("digire o raio do circuito"))
+
+print("A area do circulo é:", 3.14*raio**2)
+print("O perimetro do circulo é:", 2*3.14*raio)
