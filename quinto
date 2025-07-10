@@ -1,0 +1,6 @@
+# @title Economia +_+
+capital=float(input("digite o capital inicial:"))
+taxa=float(input("digite a taxa de juros anual:"))
+tempo=float(input("digite o tempo em anos:"))
+
+print("O valor final do investimento sera de r$" , capital*(1+taxa)**tempo)
