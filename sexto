@@ -1,0 +1,8 @@
+# @title armazenamento
+tamanho_arquivo=float(input("digite o tamanho do arquivo em MB:"))
+velocidade_conexao=float(input("digite a velocidade da conexão em MB/s:"))
+
+print("O tempo necessário para baixar o arquivo é de:", (tamanho_arquivo/velocidade_conexao)/60, "minutos")
+print("O tempo necessário para baixar o arquivo é de:", (tamanho_arquivo/velocidade_conexao), "segundos")
+print("O tempo necessário para baixar o arquivo é de:", (tamanho_arquivo/velocidade_conexao)/3600, "horas")
+
